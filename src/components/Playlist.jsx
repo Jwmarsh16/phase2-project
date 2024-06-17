@@ -1,11 +1,11 @@
 import React from "react";
 
-function SongDetails() {
+function Playlist() {
     return (
         <div>
-            Home
+            Playlist
         </div>
     )
 }
 
-export default SongDetails;
+export default Playlist;
