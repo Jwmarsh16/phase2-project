@@ -8,19 +8,19 @@
         },
         {
             "id": 2,
-            "Title": "Radioactive",
+            "title": "Radioactive",
             "artist": "Imagine Dragons",
             "album": "Night Visions"
         },
         {
             "id": 3,
-            "Title": "2009",
+            "title": "2009",
             "artist": "Mac Miller",
             "album": "Swimming"
         },
         {
             "id": 4,
-            "Title": "Mr. Brightside",
+            "title": "Mr. Brightside",
             "artist": "The Killers",
             "album": "Hot Fuss"
         }

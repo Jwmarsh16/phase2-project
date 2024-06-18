@@ -1,5 +1,5 @@
 import React from "react";
-import SongCard from './components/SongCard';
+import SongCard from './SongCard';
 
 function Playlist({ songList }) {
 
