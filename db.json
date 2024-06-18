@@ -9,6 +9,16 @@
         "id": 2,
         "Title": "Radioactive",
         "artist": "Imagine Dragons"
+    },
+    {
+        "id": 2,
+        "Title":  "2009"
+        "artist": "Mac Miller"
+    },
+    {
+        "id": 2,
+        "Title": "Mr. Brightside",
+        "artist": "The Killers"
     }
     ]
 }
