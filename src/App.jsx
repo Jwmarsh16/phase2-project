@@ -9,11 +9,17 @@ import { baseUrl } from "./globals";
 function App() {
   const [songList, setSongList] = useState([]); 
 
+  function addNewSong(newSong) {
+  setSongList([...songList, newSong])
+  };
+  
   useEffect(() => {
     fetch(baseUrl + "/songs")
       .then(resp => resp.json())
       .then(data => setSongList(data));
   }, []);
+
+
 
   return (
     <Router>
@@ -21,7 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/playlist" element={<Playlist songList={songList} />} />  
-        <Route path="/add" element={<AddSong />} />
+        <Route path="/add" element={<AddSong addNewSong={addNewSong} />} />
       </Routes>
     </Router>
   );
