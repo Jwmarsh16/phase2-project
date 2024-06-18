@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
     return (
         <div>
-            Home
+            <h1>Music Playlist Manager</h1>
         </div>
     )
 }

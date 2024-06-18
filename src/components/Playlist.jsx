@@ -1,9 +1,17 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
-function Playlist() {
+function Playlist({ playlist }) {
+    
+    
+
+
     return (
         <div>
-            Playlist
+            <h2>Playlist</h2>
+            <ul>
+                <li>    
+                </li>
+            </ul>
         </div>
     )
 }

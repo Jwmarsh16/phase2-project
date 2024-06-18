@@ -1,3 +1,14 @@
 {
-    "movies": []
+    "songs": [
+        {
+        "id": 1,
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen"
+    },
+    {
+        "id": 2,
+        "Title": "Radioactive",
+        "artist": "Imagine Dragons"
+    }
+    ]
 }
