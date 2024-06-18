@@ -4,16 +4,15 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Playlist from './components/Playlist';
 import AddSong from './components/AddSong';
-import SongDetails from './components/SongDetails';
 import { baseUrl } from "./globals";
 
 function App() {
-  const [playlist, setPlaylist] = useState([]); 
+  const [songList, setSongList] = useState([]); 
 
   useEffect(() => {
     fetch(baseUrl + "/songs")
       .then(resp => resp.json())
-      .then(data => setPlaylist(data));
+      .then(data => setSongList(data));
   }, []);
 
   return (
@@ -21,9 +20,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/playlist" element={<Playlist playlist={playlist} />} />  
+        <Route path="/playlist" element={<Playlist songList={songList} />} />  
         <Route path="/add" element={<AddSong />} />
-        <Route path="/songs/:id" element={<SongDetails />} />
       </Routes>
     </Router>
   );

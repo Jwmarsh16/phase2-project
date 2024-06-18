@@ -1,24 +1,28 @@
 {
     "songs": [
         {
-        "id": 1,
-        "title": "Bohemian Rhapsody",
-        "artist": "Queen"
-    },
-    {
-        "id": 2,
-        "Title": "Radioactive",
-        "artist": "Imagine Dragons"
-    },
-    {
-        "id": 2,
-        "Title":  "2009"
-        "artist": "Mac Miller"
-    },
-    {
-        "id": 2,
-        "Title": "Mr. Brightside",
-        "artist": "The Killers"
-    }
+            "id": 1,
+            "title": "Bohemian Rhapsody",
+            "artist": "Queen",
+            "album": "A Night at the Opera"
+        },
+        {
+            "id": 2,
+            "Title": "Radioactive",
+            "artist": "Imagine Dragons",
+            "album": "Night Visions"
+        },
+        {
+            "id": 3,
+            "Title": "2009",
+            "artist": "Mac Miller",
+            "album": "Swimming"
+        },
+        {
+            "id": 4,
+            "Title": "Mr. Brightside",
+            "artist": "The Killers",
+            "album": "Hot Fuss"
+        }
     ]
 }

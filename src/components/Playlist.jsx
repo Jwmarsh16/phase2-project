@@ -1,16 +1,19 @@
-import { useState, useEffect } from "react";
+import React from "react";
+import SongCard from './components/SongCard';
 
-function Playlist({ playlist }) {
+function Playlist({ songList }) {
+
     
+    const songCards = songList.map(song => (<SongCard key={song.id} song={song}/>
     
+    ));
 
 
     return (
         <div>
             <h2>Playlist</h2>
             <ul>
-                <li>    
-                </li>
+                { songCards }
             </ul>
         </div>
     )
