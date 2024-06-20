@@ -1,5 +1,6 @@
 import React from "react";
 import SongCard from '../CardComponents/SongCard';
+import '../Style/Playlist.css'
 
 function Playlist({ songList, deleteSong }) {
 
@@ -10,7 +11,7 @@ function Playlist({ songList, deleteSong }) {
 
 
     return (
-        <div>
+        <div className="playlist-container">
             <h2>Playlist</h2>
             <ul>
                 { songCards }

@@ -28,20 +28,20 @@ function AddSong({addNewSong}) {
     }
 
     return (
-        <div>
+        <div className="addsong-container">
             <h2>Add a New Song</h2>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="form-group">
                     <label htmlFor="title">Title: </label>
                     <input type="text" name="title" id="title" value={title}
                     onChange={(e) => setTitle(e.target.value)}/>
                 </div>
-                <div>
+                <div className="form-group">
                     <label htmlFor="artist">Artist: </label>
                     <input type="text" name="artist" id="artist" value={artist}
                     onChange={(e) => setArtist(e.target.value)}/>
                 </div>
-                <div>
+                <div className="form-group">
                     <label htmlFor="album">Album: </label>
                     <input type="text" name="album" id="album" value={album}
                     onChange={(e) => setAlbum(e.target.value)}/>
