@@ -1,10 +1,10 @@
 import React from "react";
-import SongCard from './SongCard';
+import SongCard from '../CardComponents/SongCard';
 
-function Playlist({ songList }) {
+function Playlist({ songList, deleteSong }) {
 
     
-    const songCards = songList.map(song => (<SongCard key={song.id} song={song}/>
+    const songCards = songList.map(song => (<SongCard key={song.id} song={song} deleteSong={deleteSong} />
     
     ));
 

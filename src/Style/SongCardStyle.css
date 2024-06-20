@@ -1,0 +1,32 @@
+.song-card {
+    position: relative;
+}
+
+.song-info {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.song-card:hover .song-info {
+    background-color: #f0f0f0;
+}
+
+.remove-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.song-card:hover .remove-button {
+    display: block;
+}
+
+
