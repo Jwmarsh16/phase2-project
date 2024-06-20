@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { baseUrl } from "../globals";
+import '../Style/AddSong.css'
 
 function AddSong({addNewSong}) {
 
